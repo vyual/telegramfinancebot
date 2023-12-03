@@ -2,7 +2,10 @@ module telegramfinancebot
 
 go 1.21
 
-require github.com/mymmrac/telego v0.28.0
+require (
+	crawshaw.io/sqlite v0.3.2
+	github.com/mymmrac/telego v0.28.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
